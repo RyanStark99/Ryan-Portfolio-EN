@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Ryan</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="fas fa-home nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="fas fa-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="fas fa-file-alt nav__icon"></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="fas fa-briefcase nav__icon"></i>Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="fas fa-image nav__icon"></i>Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="fas fa-envelope nav__icon"></i>Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="fas fa-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <i class="fas fa-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <!--================== Language ==================-->
+                    <div class="language">
+                        <a href="#" class="switch-VN">VN</a>
+                        <a href="https://ryanstark99.github.io/Ryan-Portfolio-EN/" class="switch-EN">EN</a>
+                    </div>
+
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://discord.gg/wxnY4s7t" target="blank" class="home__social-icon">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/" target="blank" class="home__social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/RyanStark99" target="blank" class="home__social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x='1' y='15'  xlink:href="assets/img/perfil2.png"/>
+                                </g>
+                            </svg>
+                            
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Ryan</h1>
+                            <h11 class="home__title2">Tên thật của mình là Hoàn nhưng cứ gọi mình là Ryan là được rồi.</h11>
+                            <h3 class="home__subtitle">Front-End Developer</h3>
+                            <p class="home__description">High level experience in web design and development knowledge,
+                                producing quality work, have a lot of experience in technology, PC, smartphone,... </p>
+                            <a href="#contact" class="button button--flex home__button">
+                                Contact me<i class="fab fa-telegram-plane button__icon"></i>
+                            </a>
+                        </div>                      
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="fas fa-computer-mouse home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="fas fa-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about__section section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">Web developer, withextensive knowledge years of
+                            experience, working in web technologies and UI / UX design, delivering quality work.</p>
+                        
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">6+</span>
+                                <span class="about__info-name">Years <br> experience</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">4+</span>
+                                <span class="about__info-name">Website</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">25+</span>
+                                <span class="about__info-name">Complete <br> project</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/CV.pdf" class="button button--flex">
+                                Download CV<i class="fas fa-right-to-bracket about__icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 0 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="fas fa-desktop skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">PC</h1>
+                                    <span class="skills__subtitle">6 years</span>
+                                </div>
+                                <i class="fas fa-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Hardware</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__hw"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Software</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sw"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills__content skills__close"> 
+                            <div class="skills__header">
+                                <i class="fas fa-building skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Engineer architect</h1>
+                                    <span class="skills__subtitle">6 years</span>
+                                </div>
+                                <i class="fas fa-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Autocad</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__cad"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">ADS Civil</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__ads"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Sketchup</h3>
+                                        <span class="skills__number">40%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sk"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                           <div class="skills__header">
+                               <i class="fas fa-swatchbook skills__icon"></i>
+
+                               <div>
+                                   <h1 class="skills__title">Designer</h1>
+                                   <span class="skills__subtitle">4 years</span>
+                               </div>
+                               <i class="fas fa-angle-down skills__arrow"></i>
+                           </div>
+
+                           <div class="skills__list grid">
+                               <div class="skill__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">Photoshop</h3>
+                                       <span class="skills__number">60%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__pts"></span>
+                                   </div>
+                               </div>
+
+                               <div class="skill__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">Premiere</h3>
+                                       <span class="skills__number">50%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__pre"></span>
+                                   </div>
+                               </div>
+
+                               <div class="skill__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">Illustrator</h3>
+                                       <span class="skills__number">30%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__ill"></span>
+                                   </div>
+                               </div>
+
+                               <div class="skill__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">After effect</h3>
+                                       <span class="skills__number">50%</span>
+                                   </div>
+                                   <div class="skills__bar">
+                                       <span class="skills__percentage skills__ae"></span>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="fas fa-code skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Front-end developer</h1>
+                                    <span class="skills__subtitle">about 1 month</span>
+                                </div>
+                                <i class="fas fa-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScrip</h3>
+                                        <span class="skills__number">10%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 4 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="fas fa-briefcase skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Office</h1>
+                                    <span class="skills__subtitle">6 năm</span>
+                                </div>
+                                <i class="fas fa-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Word</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__word"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Power Point</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__pp"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Excel</h3>
+                                        <span class="skills__number">40%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__ex"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My personel journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="fas fa-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="fas fa-briefcase qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div class="qualification__row">
+                                    <h3 class="qualification__title">High School</h3>
+                                    <span class="qualification__subtitle">THPT Hong Quang/ Hai Duong</span>
+                                    <div class="qualification__calendar">
+                                        <i class="fas fa-calendar-days"></i>
+                                        2014 - 2017
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div class="qualification__row">
+                                    <h3 class="qualification__title">Structal Engineer</h3>
+                                    <span class="qualification__subtitle">Ha Noi Architectural University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="fas fa-calendar-days"></i>
+                                        2017 - 2022
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">
+                                <div class="qualification__row">
+                                    <h3 class="qualification__title">Front-End Developer</h3>
+                                    <span class="qualification__subtitle">FPT Aptech</span>
+                                    <div class="qualification__calendar">
+                                        <i class="fas fa-calendar-days"></i>
+                                        2023 - 2024
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content " data-content id="work">
+                            
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">                               
+                                <div class="qualification__row">
+                                    <h3 class="qualification__title">Data Services</h3>
+                                    <span class="qualification__subtitle">Aimmo - Viet Nam</span>
+                                    <div class="qualification__calendar">
+                                        <i class="fas fa-calendar-days"></i>
+                                        2019 - 2022
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+                                
+                                <div>
+                                    <span class="qualification__rounder"></span>   
+                                    <span class="qualification__line"></span>                                
+                                </div>
+
+                                <div class="qualification__row">
+                                    <h3 class="qualification__title">Data Services</h3>
+                                    <span class="qualification__subtitle">Infiniq - Viet Nam</span>
+                                    <div class="qualification__calendar">
+                                        <i class="fas fa-calendar-days"></i>
+                                        2022 - 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">                               
+                                <div class="qualification__row">
+                                    <h3 class="qualification__title">Front-End Developer</h3>
+                                    <span class="qualification__subtitle">Apple - Viet Nam</span>
+                                    <div class="qualification__calendar">
+                                        <i class="fas fa-calendar-days"></i>
+                                        2023 - Now
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">What i offer ?</span>
+
+                <div class="services__container container grid">
+                    <!--==================== SERVICES 1 ====================-->
+                    <div class="services__content">
+                        <i class="fas fa-desktop services__icon"></i>
+                        <h3 class="services__title">PC <br> Engineer</h3>
+    
+                        <span class="button button--flex button--small button--link services__button">
+                            See more
+                            <i class="fas fa-arrow-right button__icon"></i>
+                        </span>
+        
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">PC <br> Engineer</h4>
+                                <i class="fas fa-times services__modal-close"></i>
+        
+                                <u1 class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Building PC.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Checking hardware computer.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Setup window & active.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Setup software.</p>
+                                    </li>
+                                </u1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 2 ====================-->
+                    <div class="services__content">
+                        <i class="fas fa-building services__icon"></i>
+                        <h3 class="services__title">Structal <br> Engineer</h3>
+    
+                        <span class="button button--flex button--small button--link services__button">
+                            See more
+                            <i class="fas fa-arrow-right button__icon"></i>
+                        </span>
+        
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Structal <br> Engineer</h4>
+                                <i class="fas fa-times services__modal-close"></i>
+        
+                                <u1 class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Road design.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Design traffic items, leveling, embankment, wastewater drainage in the planning areas.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Design of pipes and wires in technical infrastructure areas.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Design of roads in planning areas.</p>
+                                    </li>
+                                </u1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 3 ====================-->
+                    <div class="services__content">
+                        <i class="fas fa-swatchbook services__icon"></i>
+                        <h3 class="services__title">Freelancer <br> Designer</h3>
+    
+                        <span class="button button--flex button--small button--link services__button">
+                            See more
+                            <i class="fas fa-arrow-right button__icon"></i>
+                        </span>
+        
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Designer</h4>
+                                <i class="fas fa-times services__modal-close"></i>
+        
+                                <u1 class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Basic photo editing.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Design banners and advertisements.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Basic video editing.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Design logo.</p>
+                                    </li>
+                                </u1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 4 ====================-->
+                    <div class="services__content">
+                        <i class="fas fa-images services__icon"></i>
+                        <h3 class="services__title">Data <br> Service</h3>
+    
+                        <span class="button button--flex button--small button--link services__button">
+                            See more
+                            <i class="fas fa-arrow-right button__icon"></i>
+                        </span>
+        
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Data Services <br> training AI</h4>
+                                <i class="fas fa-times services__modal-close"></i>
+        
+                                <u1 class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Integration-OD.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Integration-Segment.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Indus.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>3D Cuboid.</p>
+                                    </li>
+                                </u1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 5 ====================-->
+                    <div class="services__content">
+                        <i class="fas fa-code services__icon"></i>
+                        <h3 class="services__title">Website <br> Developer</h3>
+    
+                        <span class="button button--flex button--small button--link services__button">
+                            See more
+                            <i class="fas fa-arrow-right button__icon"></i>
+                        </span>
+        
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">UI/UX <br> Website</h4>
+                                <i class="fas fa-times services__modal-close"></i>
+        
+                                <u1 class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>I develop the user interface.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Web page development.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>I create ux element interactions.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>I position your company brand.</p>
+                                    </li>
+                                </u1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 6 ====================-->
+                    <div class="services__content">
+                        <i class="fas fa-gamepad services__icon"></i>
+                        <h3 class="services__title">Gaming <br> PC</h3>
+    
+                        <span class="button button--flex button--small button--link services__button">
+                            See more
+                            <i class="fas fa-arrow-right button__icon"></i>
+                        </span>
+        
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">PC <br> Game</h4>
+                                <i class="fas fa-times services__modal-close"></i>
+        
+                                <u1 class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Online game: League of Legend, PUBG, TFT, GTA roleplay,...</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="fas fa-check-circle services__modal-icon"></i>
+                                        <p>Offline game: Forza Horizon, Cyberpunk 2077, Ori, Stray, Sifu,...</p>
+                                    </li>
+                                </u1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most recent work</span> 
+    
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Modern Website</h3>
+                                <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+
+                                <a href="https://ryanstark99.github.io/ryan-coffee-website/" target="blank" class="button button--flex button--small portfolio__button">
+                                    Demo<i class="fas fa-angle-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Portfolio Website</h3>
+                                <p class="portfolio__description">An eye-catching portfolio will impress employers and increase your chances of success from the very beginning.</p>
+
+                                <a href="https://ryanstark99.github.io/portfolio-website-alexa/" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Demo<i class="fas fa-angle-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Login Interface</h3>
+                                <p class="portfolio__description">Login interface with interesting interaction, try it out.</p>
+
+                                <a href="https://ryanstark99.github.io/Login-responsive/" target="blank" class="button button--flex button--small portfolio__button">
+                                    Demo<i class="fas fa-angle-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                    <!-- Add Arrow -->
+                    <div class="swiper-button-next">
+                        <i class="fas fa-angle-right swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="fas fa-angle-left swiper-portfolio-icon"></i>
+                    </div>
+                    <!-- Add Pagination <div class="swiper-pagination"></div>-->
+                    
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="project__title">Do you have any Portfolio ?</h2>
+                            <p class="project__description">Contact below to design an impressive portfolio just like me.</p>
+                            <a href="#contact" class="button button--flex button--white">
+                                Contact<i class="fas fa-message project__icon button__icon"></i>
+                            </a>
+                        </div>
+                        <img src="assets/img/project.png" alt="" class="project__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                <h2 class="section__title">Testimonial</h2>
+                <span class="section__subtitle">My client saying</span>
+
+                <div class="testimonial__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== TESTIMONIAL 1 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Sara</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial_description">I get a good impression, I carry out my project with all the possible quality and support 24h a day.</p>
+                        </div>
+
+                        <!--==================== TESTIMONIAL 2 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Calvin</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial_description">I get a good impression, I carry out my project with all the possible quality and support 24h a day.</p>
+                        </div>
+
+                        <!--==================== TESTIMONIAL 3 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">John</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                    <i class="fas fa-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial_description">I get a good impression, I carry out my project with all the possible quality and support 24h a day.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-testimonal"></div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div class="contact__lh">
+                        <div class="contact__information">
+                            <i class="fas fa-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Phone</h3>
+                                <span class="contact__subtitle">(+84) 039-8422-989</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="fas fa-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">ryanstark2209@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="fas fa-location-dot contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Viet Nam - Thanh Xuan Wd. Ha Noi</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form onsubmit="sendEmail(); reset(); return false;" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <h3>Your information</h3>
+                            <div class="contact__content">
+                                <span class="fas fa-user contact__label"></span>
+                                <input type="text" id="name" class="contact__input" placeholder="Name">
+                            </div>
+            
+                            <div class="contact__content">
+                                <span class="fas fa-envelope contact__label"></span>
+                                <input type="email" id="email" class="contact__input" placeholder="Email">
+                            </div>
+            
+                            <div class="contact__content">
+                                <span class="fas fa-mobile-android contact__label"></span>
+                                <input type="number" id="phone" class="contact__input" placeholder="Phone no.">
+                            </div>
+
+                            <div class="contact__content">
+                                <span class="fas fa-file-alt contact__label"></span>
+                                <textarea name="" id="message" cols="0" rows="7" class="contact__input" placeholder="Your message ..."></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="contact__button button button--flex">Send
+                                    <i class="fab fa-telegram-plane project__icon button__icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Ryan Stark</h1>
+                        <span class="footer__subtitle">Front-End Developer</span>
+                    </div>
+
+                    <u1 class="footer__links">
+                        <l1>
+                            <a href="#services" class="footer__link">Services</a>
+                        </l1>
+                        <l1>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </l1>
+                        <l1>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </l1>
+                    </u1>
+
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/RyanStark99" target="_blank" class="footer__social">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Ryan Stark | All right reserved</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="fas fa-angle-up scrollup-icon"></i>
+        </a>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.js"></script>
+        
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+
+        <!--==================== EMAIL JS ====================-->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+
+    </body>
+</html>
