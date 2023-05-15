@@ -237,7 +237,7 @@ function sendEmail(){
         + "<br> Số điện thoại: " + document.getElementById("phone").value
         + "<br> Nội dung: " + document.getElementById("message").value
     }).then(
-      message => alert("Gửi tin nhắn thành công !")
+      message => alert("Message sent successfully !")
     );
 }
 
