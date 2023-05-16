@@ -177,13 +177,13 @@ img {
 
 /*==================== Language ====================*/
 .switch-VN{
-  color: var(--first-color);
+  color: var(--text-color-light);
   font-size: var(--font-medium);
   font-weight: var(--font-semi-bold);
 }
 
 .switch-EN{
-  color: var(--text-color-light);
+  color: var(--first-color);
   font-size: var(--font-medium);
   font-weight: var(--font-semi-bold);
   margin-left: 0.5rem; 
