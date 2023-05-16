@@ -89,7 +89,7 @@ modalCloses.forEach((modalClose) =>{
     })
 })
 
-
+/*==================== CONTACT POPUP ====================*/
 
 
 
@@ -111,21 +111,20 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
 
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonal = new Swiper(".testimonial__container", {
-    cssMode: true, loop: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    pagination: {
+    spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 250,
+        disableOnInteraction: false,
+      },
+      pagination: {
         el: ".swiper-pagination",
         clickable: true,
-        dynamicBullets: true
-    },
-    breakpoints:{
-        568:{
-            slidePerView:2,
-        }
-    }
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
 });
 
 
@@ -223,7 +222,7 @@ themeButton.addEventListener('click', () => {
 })
 
 
-/*==================== SEND EMAIL ====================*/
+/*==================== SEND EMAIL ====================
 function sendEmail(){
     Email.send({
         Host : "smtp.gmail.com",
@@ -237,10 +236,10 @@ function sendEmail(){
         + "<br> Số điện thoại: " + document.getElementById("phone").value
         + "<br> Nội dung: " + document.getElementById("message").value
     }).then(
-      message => alert("Message sent successfully !")
+      message => alert("Gửi tin nhắn thành công !")
     );
 }
-
+*/
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
